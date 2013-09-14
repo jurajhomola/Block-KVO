@@ -23,6 +23,8 @@
 		5B1DAF1916C67E24007EE428 /* BlockObservingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DAF1816C67E24007EE428 /* BlockObservingTests.m */; };
 		5B1DAF2316C67FC4007EE428 /* MTKTestingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DAF2216C67FC4007EE428 /* MTKTestingObject.m */; };
 		5B1DAF2416C681C3007EE428 /* libBlockObserving.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAD91CB15B18C4800E3A100 /* libBlockObserving.a */; };
+		5B1FC1BE17E49980007AFBED /* MTKPropertyObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1FC1BC17E49980007AFBED /* MTKPropertyObserver.h */; };
+		5B1FC1BF17E49980007AFBED /* MTKPropertyObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1FC1BD17E49980007AFBED /* MTKPropertyObserver.m */; };
 		5B7A2BFE16AFDE05009214C9 /* keypath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7A2BF716AFDE05009214C9 /* keypath.h */; };
 		5B7A2BFF16AFDE05009214C9 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7A2BF816AFDE05009214C9 /* metamacros.h */; };
 		5B7A2C0016AFDE05009214C9 /* MTKObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7A2BF916AFDE05009214C9 /* MTKObserver.h */; };
@@ -65,6 +67,8 @@
 		5B1DAF1F16C67F50007EE428 /* Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		5B1DAF2116C67FC4007EE428 /* MTKTestingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTKTestingObject.h; sourceTree = "<group>"; };
 		5B1DAF2216C67FC4007EE428 /* MTKTestingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTKTestingObject.m; sourceTree = "<group>"; };
+		5B1FC1BC17E49980007AFBED /* MTKPropertyObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTKPropertyObserver.h; sourceTree = "<group>"; };
+		5B1FC1BD17E49980007AFBED /* MTKPropertyObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTKPropertyObserver.m; sourceTree = "<group>"; };
 		5B7A2BF716AFDE05009214C9 /* keypath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keypath.h; sourceTree = "<group>"; };
 		5B7A2BF816AFDE05009214C9 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
 		5B7A2BF916AFDE05009214C9 /* MTKObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTKObserver.h; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 				5B7A2BFD16AFDE05009214C9 /* NSObject+MTKObserving.m */,
 				5B7A2BF916AFDE05009214C9 /* MTKObserver.h */,
 				5B7A2BFA16AFDE05009214C9 /* MTKObserver.m */,
+				5B1FC1BC17E49980007AFBED /* MTKPropertyObserver.h */,
+				5B1FC1BD17E49980007AFBED /* MTKPropertyObserver.m */,
 				5B7A2BF616AFDE05009214C9 /* Utilities */,
 			);
 			path = Sources;
@@ -210,6 +216,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1FC1BE17E49980007AFBED /* MTKPropertyObserver.h in Headers */,
 				5B7A2BFE16AFDE05009214C9 /* keypath.h in Headers */,
 				5B7A2BFF16AFDE05009214C9 /* metamacros.h in Headers */,
 				5B7A2C0016AFDE05009214C9 /* MTKObserver.h in Headers */,
@@ -364,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1FC1BF17E49980007AFBED /* MTKPropertyObserver.m in Sources */,
 				5B7A2C0116AFDE05009214C9 /* MTKObserver.m in Sources */,
 				5B7A2C0416AFDE05009214C9 /* NSObject+MTKObserving.m in Sources */,
 			);
