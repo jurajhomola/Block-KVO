@@ -283,7 +283,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MTK;
-				LastUpgradeCheck = 0500;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "iMartin Kiss";
 			};
 			buildConfigurationList = 5BAD91B115B18B1200E3A100 /* Build configuration list for PBXProject "Block Key-Value Observing" */;
@@ -554,7 +555,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/BlockObserving.dst;
@@ -583,7 +583,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/BlockObserving.dst;
